@@ -5,12 +5,12 @@ size(300,300,P3D);
 
 s = loadShape("MGTOW-Sign.svg");
 smooth();
-noLoop();
 
 }
 
 void draw() {
-shape(s, 10, 10, 400, 400);
+background(204);
+shape(s);
 }
 
 void mousePressed() {
