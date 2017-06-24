@@ -2,7 +2,7 @@
 PShape s;
 
 void setup() {
-  size(100, 100, P3D);
+  size(100, 100);
   s = loadShape("MGTOW-Sign.svg");
 }
 
@@ -13,5 +13,5 @@ void draw() {
 
 void mousePressed() {
   // Rotate the shape around the x-axis each time the mouse is pressed
-  s.rotateX(0.1);  
+  s.rotate(0.1);  
 }
