@@ -15,5 +15,5 @@ shape(s, 10, 10, 400, 400);
 
 void mousePressed() {
   // Rotate the shape around the x-axis each time the mouse is pressed
-  s.rotateX(0.1);  
+  s.rotateX(0.1);   
 }
