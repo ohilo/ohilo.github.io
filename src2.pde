@@ -1,7 +1,7 @@
 PShape s;
 
 void setup() {
-
+size(300,300);
 
 s = loadShape("MGTOW-Sign.svg");
 smooth();
