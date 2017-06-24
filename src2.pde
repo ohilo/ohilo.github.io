@@ -1,5 +1,5 @@
 
-void draw() {
+void setup() {
 
 PShape s;
 s = loadShape("MGTOW-Sign.svg");
